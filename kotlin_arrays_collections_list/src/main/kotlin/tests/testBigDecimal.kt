@@ -3,6 +3,12 @@ package tests
 import java.math.BigDecimal
 import java.math.RoundingMode
 
+/*----------------------------------------------------------------------------------------------------------------------
+- Criação de extension functions
+- Utilizar outras funções da linguagem, como reduce() e fold()
+- Compor chamadas de funções para chegar a um resultado
+----------------------------------------------------------------------------------------------------------------------*/
+
 fun testBigDecimal() {
 
     val salario = bigDecimalArrayOf("1500.55", "2000.00", "5000.00", "10000.00")
@@ -53,3 +59,6 @@ fun Array<BigDecimal>.somatoria(): BigDecimal {
         acumulador + valor
     }
 }
+
+
+
