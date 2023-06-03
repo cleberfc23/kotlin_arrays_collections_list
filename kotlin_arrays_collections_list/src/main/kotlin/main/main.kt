@@ -1,11 +1,8 @@
 package main
 
-import tests.testAges
-import tests.testBigDecimal
-import tests.testDoubleArray
-import tests.testRanges
+import tests.*
 
 fun main() {
-    testBigDecimal()
+    testLists()
 }
 

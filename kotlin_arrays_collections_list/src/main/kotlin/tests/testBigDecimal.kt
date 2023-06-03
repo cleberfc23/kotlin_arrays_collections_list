@@ -47,7 +47,6 @@ fun bigDecimalArrayOf(vararg valores: String): Array<BigDecimal> {
 fun Array<BigDecimal>.media(): BigDecimal {
     return if (this.isNotEmpty()) {
         (this.somatoria()) / this.size.toBigDecimal()
-
     } else {
         BigDecimal.ZERO
     }
